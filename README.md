@@ -6,27 +6,27 @@ The goal of this project is to play with loops and conditionals. For this projec
 
 Task 1: User input tic tac toe 
 
-  1.	Requirements: 
-    1.	Board must be constructed out of a 3x3 matrix 
-    2.	Must utilize a while loop 
-    3.	Must utilize If and else conditionals 
-    4.	Selected board position must be a user input from players 1 and players 2 
-    5.	Display the board after each move is made 
-    6.	A player can't select a board position that has already been taken. If they do, prompt them with a select again comment and let them select again.  
-    7.	Game should stop when a win condition is met 
-    8.	Game should be able to go to a tie 
-    9.	Display which player won or if a tie was met 
+    1.	Requirements: 
+        1.	Board must be constructed out of a 3x3 matrix 
+        2.	Must utilize a while loop 
+        3.	Must utilize If and else conditionals 
+        4.	Selected board position must be a user input from players 1 and players 2 
+        5.	Display the board after each move is made 
+        6.	A player can't select a board position that has already been taken. If they do, prompt them with a select again comment and let them select again.  
+        7.	Game should stop when a win condition is met 
+        8.	Game should be able to go to a tie 
+        9.	Display which player won or if a tie was met 
 
 Task 2: tic tac toe simulation over 5000 iterations 
 
-  ●	Requirements: 
-    1.	Take the code from above and make slight modifications to it 
-    2.	remove any input prompts 
-    3.	Use a random integer generator to select the moves for each player 
-    4.	Toss the code into a for loop  that runs the game N times (for this instance N =5000 but I should be able to change it to any number) 
-    5.	Modify the code as needed to properly run 
-    6.	Keep log of each win, loss, and tie 
-    7.	Generate a histogram of win, loss, and tied games 
+    ●	Requirements: 
+        1.	Take the code from above and make slight modifications to it 
+        2.	remove any input prompts 
+        3.	Use a random integer generator to select the moves for each player 
+        4.	Toss the code into a for loop  that runs the game N times (for this instance N =5000 but I should be able to change it to any number) 
+        5.	Modify the code as needed to properly run 
+        6.	Keep log of each win, loss, and tie 
+        7.	Generate a histogram of win, loss, and tied games 
  
 Project 1:  Playing with real data (30 %)
 
