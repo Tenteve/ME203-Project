@@ -48,9 +48,9 @@ while turn==1
       r=move(1);
       c=move(2);
       while board(r,c)==abs(1)    %While loops Checks if move is already taken
-        move=input('Invalid input Player 2 [r,c]:');
-        r=move(1);
-        c=move(2);
+          move=input('Invalid input Player 2 [r,c]:');
+          r=move(1);
+          c=move(2);
       end
       board(r,c)=1;
       text(c,-r,'X','horizontalalignment','center','fontsize',25)
