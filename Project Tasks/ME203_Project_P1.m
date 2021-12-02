@@ -18,11 +18,17 @@ r=move(1);
 c=move(2);
 board(r,c)=1;
 text(c,-r,'X','horizontalalignment','center','fontsize',25)
+turn=1;
 %Begins the loop with player 2's first turn
 while turn==1
     move=input('Player 2 [r,c]:');
     r=move(1);
     c=move(2);
+    while board(r,c)==abs(1)   %While loop Checks if move is already taken
+        move=input('Invalid input Player 2 [r,c]:');
+        r=move(1);
+        c=move(2);
+    end
     board(r,c)=-1;
     text(c,-r,'O','horizontalalignment','center','fontsize',25)
       result=[sum(board),sum(board)]; %These are the winning scenarios
@@ -41,6 +47,11 @@ while turn==1
       move=input('Player 1 [r,c]:'); %Now player 1's turn is in the loop 
       r=move(1);
       c=move(2);
+      while board(r,c)==abs(1)    %While loops Checks if move is already taken
+        move=input('Invalid input Player 2 [r,c]:');
+        r=move(1);
+        c=move(2);
+      end
       board(r,c)=1;
       text(c,-r,'X','horizontalalignment','center','fontsize',25)
       result=[sum(board),sum(board)];  %These are the winning scenarios
