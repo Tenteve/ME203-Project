@@ -5,6 +5,7 @@ Project 1:  Lets Play a Game (30 %)
 The goal of this project is to play with loops and conditionals. For this project you will be making a game of Tic-Tac-Toe.
 
 Task 1: User input tic tac toe 
+
   1.	Requirements: 
     1.	Board must be constructed out of a 3x3 matrix 
     2.	Must utilize a while loop 
@@ -15,7 +16,9 @@ Task 1: User input tic tac toe
     7.	Game should stop when a win condition is met 
     8.	Game should be able to go to a tie 
     9.	Display which player won or if a tie was met 
+
 Task 2: tic tac toe simulation over 5000 iterations 
+
   ●	Requirements: 
     1.	Take the code from above and make slight modifications to it 
     2.	remove any input prompts 
@@ -26,6 +29,7 @@ Task 2: tic tac toe simulation over 5000 iterations
     7.	Generate a histogram of win, loss, and tied games 
  
 Project 1:  Playing with real data (30 %)
+
 The goal of this project is to play with some real data. I have provided you with some real data from my research. The data collected is from an instrument called a hot wire anemometer. This device heats up a small wire and maintains a constant temperature. When wind crosses the wire,it cools down due to forced convection. To compensate for the cooling, the sensor sends more energy to the wire to get it back up to temperature. The amount of energy added is then recorded with a data acquisition unit in terms of voltage needed to maintain temperature. A higher voltage corresponds to a higher wind speed. The data set given is a time trace from an experiment ran inside a wind tunnel. The wind inside the wind tunnel is dynamically controlled as a sum of sines but is unknown. We seek to determine that input. Largely I will be walking you through step by step on how to solve this problem. Giving you intuition and logic along the way that should generally match how you would solve similar problems in the future. 
 
 Task 1: Finding an input with only the output
