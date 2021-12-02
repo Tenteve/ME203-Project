@@ -53,40 +53,53 @@ Project 3:  Avengers Assemble (40 %)
 The goal of this project is to exercise your ability to search for existing functions and make your own. Taking the script of The Avengers movie you will create a code that when given a Superhero name  it shows a distribution of their N most used words. For all functions given, rename them with your Initials attached to the end. Eg. get_words_AL
 
 Task 1: create a function that reads a .txt file and makes a cell array of every word 
+
     2.	Requirements: 
       1.	I’ll get you started. Download function get_words and fill in the blank
       2.	Input must be a string
       3.	Output will be a single array of all the words in the text
       4.	You must open and close each  text file
       5.	Googling “matlab function takes words from a text file” leads the link: https://www.mathworks.com/help/matlab/ref/textscan.html use this function to complete Task 1
+      
 Task 2: create a function that takes your word array and removes all delimiters and makes all words lowercase 
+
     ●	Requirements: 
       1.	Take the function remove_delim and fill in the blanks
       2.	Google around a bit and find a function that removes a partial string from the whole string(delimiters) eg. Hello! to Hello
       3.	Iterate the step above for each string in your cell array.
       4.	Do steps 2 and 3 for [".",",","?","!"]
       5.	Lastly, make every string lowercase
+      
 Task 3: create a function that removes the top most commonly used word in the english language  and finds the length of the resulting array
+
     ●	Requirements: 
       1.	Take the function clean_words and fill in the blanks
       2.	Google “remove specific entries in a cell array matlab” and play with the search results
       3.	Use https://www.espressoenglish.net/the-100-most-common-words-in-english/ to find a list of the top most common words
       4.	Use step 2 and 3 to remove the top 20 words from the array
       5.	Set  the filtered data and the Length of the resulting array
+      
 Task 4: create a function that aggregates all the repeated words and finds the count of each category. 
+
     ●	Requirements: 
       1.	Take the function categorize_words and fill in the blanks
       2.	Google around a bit to find some functions that can be used to categorize and count strings in a cell array
       3.	Have your outputs be the categories which will later be used for the x axis labels of a bar graph and the count for each word eg. dataclean={dog,hello, hello,dog,car,dog} →  barx={hello, car, dog} and count =[2,1,3]
-    Task 5: I have given you a function that uses the output from task 4 and finds the top N used words and finds each word’s count. Give it a proper description for when calling help. 
+      
+Task 5: I have given you a function that uses the output from task 4 and finds the top N used words and finds each word’s count. Give it a proper description for when calling help. 
+
     ●	Requirements: 
       1.	Take my function(Top_N) that is fully completed and add a useful descriptor to it
-      Task 6: Generate a function that uses all 5 previous functions in order
+      
+  Task 6: Generate a function that uses all 5 previous functions in order
+      
     ●	Requirements: 
       1.	Create a function that uses all 5 previous functions in order
       2.	Inputs should be the name of a .txt file and the N number of top used words.
       3.	Outputs should be a cell array of the top N number words, each of those words counts (outputs form Top_N) and Length from clean_words
+      
 Task 7: Plotting top words used in the movie
+
     ●	Requirements: 
       1.	Create a script that uses a user input to specify the inputs into your function from task 6.
       2.	Inputs should be a string and a number corresponding to the hero's name and how many words you want to see. To test use Ironman and 10
