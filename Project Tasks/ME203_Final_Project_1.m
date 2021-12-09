@@ -93,7 +93,7 @@ Win1=0;
 Win2=0;
 Tie=0;
 GC=0;
-for game=1:50
+for game=1:5000
     GC=GC+1;
 %Establish the board
 board=zeros(3,3);
@@ -197,5 +197,3 @@ xlabel('Number of wins and draws')
 ylabel('Logical Value (1)')
 title('Tic Tac Toe at Random')
 legend('Wins of Player 1','Wins of Player 2','Total Ties')
-
-
